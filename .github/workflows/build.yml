@@ -26,3 +26,7 @@ jobs:
           name: compiled-exe
           path: build/**/*.exe
 
+      - name: List build output
+        run: |
+          cd build
+          dir /s /b
