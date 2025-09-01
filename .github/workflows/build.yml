@@ -24,4 +24,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: compiled-exe
-          path: build/**/Release/*.exe
+          path: build/**/*.exe
+
