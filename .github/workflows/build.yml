@@ -30,4 +30,4 @@ jobs:
       - name: List build output
         run: |
           cd build
-          dir /s /b
+          Get-ChildItem -Recurse -File
